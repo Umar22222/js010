@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bellissimo Pizza</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Container -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center py-4 px-4 md:px-8">
+            <!-- Left Section (Logo and Location) -->
+            <div class="flex items-center space-x-4">
+                <!-- Logo -->
+                <img src="./assets/logo.jpg" alt="Bellissimo Pizza" class="h-10">
+
+                <!-- City Selector -->
+                <div class="hidden sm:flex items-center bg-green-100 rounded-full px-4 py-2 space-x-2">
+                    <span class="text-green-600 text-xl">📍</span>
+                    <span class="text-gray-600">Shahar:</span>
+                    <span class="font-bold text-gray-700">Toshkent</span>
+                    <span class="text-gray-400">▼</span>
+                </div>
+            </div>
+
+            <!-- Center Section (Phone and Info) -->
+            <div class="hidden md:flex items-center space-x-6">
+                <!-- Phone Info -->
+                <div class="flex items-center bg-green-100 rounded-full px-4 py-2 space-x-2">
+                    <span class="text-green-600">📞</span>
+                    <span class="font-bold text-gray-700">1174</span>
+                </div>
+                <span class="text-gray-500">Yagona aloqa markazi</span>
+
+                <!-- 24/7 Info -->
+                <div class="bg-green-50 rounded-full px-4 py-2">
+                    <span class="text-green-600 font-bold">24/7</span>
+                    <span class="text-gray-500 block">Bepul yetkazish endi 24/7 mavjud</span>
+                </div>
+            </div>
+
+            <!-- Right Section (Language and Login) -->
+            <div class="flex items-center space-x-4">
+                <!-- Language Selector -->
+                <div class="hidden sm:flex items-center space-x-2">
+                    <img src="./assets/bayro.jpg" alt="Uzbek Flag" class="h-6">
+                    <span class="font-bold text-gray-700">Uz</span>
+                    <span class="text-gray-400">▼</span>
+                </div>
+
+                <!-- Halal Certification -->
+                <img src="./assets/halol.jpg" alt="Halal Certification" class="h-8">
+
+                <!-- Login Button -->
+                <button class="bg-green-600 text-white px-6 py-2 rounded-full">
+                    Kirish
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Additional Content Placeholder -->
+    <main class="container mx-auto mt-8">
+        <section class="container mx-auto py-8 px-4 md:px-0">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <img src="./assets/1.jpg" alt="Pizza Image" class="w-full h-auto">
+                    </div>
+
+                </div>
+    
+                <!-- Pagination (Dots) -->
+                <div class="swiper-pagination"></div>
+    
+                <!-- Navigation (Previous/Next Buttons) -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+
+
+        <section>
+               <!-- Top navigation -->
+    <div class="container mx-auto my-4">
+        <div class="flex justify-between items-center bg-white p-4 rounded-lg shadow-md">
+            <div class="flex space-x-4">
+                <button class="bg-gray-100 py-2 px-4 rounded-full">Yetkazib berish</button>
+                <button class="bg-gray-100 py-2 px-4 rounded-full">Olib ketish</button>
+            </div>
+            <div class="bg-yellow-100 py-2 px-6 rounded-full text-yellow-600">Yetkazib berish manzilini tanlang</div>
+            <div class="text-red-600 font-semibold">Savatcha | 0</div>
+        </div>
+    </div>
+
+    <!-- Categories -->
+    <div class="container mx-auto my-4">
+        <div class="flex flex-wrap gap-4 justify-center bg-white p-4 rounded-lg shadow-md">
+            <button class="bg-gray-100 py-2 px-4 rounded-full">Kombo</button>
+            <button class="bg-gray-100 py-2 px-4 rounded-full">Pitsa</button>
+            <button class="bg-gray-100 py-2 px-4 rounded-full">Gazaklar</button>
+            <button class="bg-gray-100 py-2 px-4 rounded-full">Ichimliklar</button>
+            <button class="bg-gray-100 py-2 px-4 rounded-full">Salatlar</button>
+            <button class="bg-gray-100 py-2 px-4 rounded-full">Desertlar</button>
+            <button class="bg-gray-100 py-2 px-4 rounded-full">Souslar</button>
+        </div>
+    </div>
+
+    <!-- Menu items -->
+    <div class="container mx-auto my-8">
+        <h2 class="text-2xl font-bold mb-4">Kombo</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Student 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <img src="./assets/4.jpg" alt="Student 1" class="mx-auto">
+                <h3 class="text-lg font-semibold mt-4">Student 1</h3>
+                <p class="text-gray-600">Bellisster, 3 ta tovuqli strips va razliv ichimlik – tez va mazali tushlik uchun ajoyib tanlov.</p>
+                <p class="text-lg font-semibold mt-2">39 000 so'm</p>
+            </div>
+            <!-- Student 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <img src="./assets/4.jpg" alt="Student 2" class="mx-auto">
+                <h3 class="text-lg font-semibold mt-4">Student 2</h3>
+                <p class="text-gray-600">Bellisster, kartoshka fri va razliv ichimlik – foydali va to'yimli bir kishi uchun.</p>
+                <p class="text-lg font-semibold mt-2">39 000 so'm</p>
+            </div>
+            <!-- Do'stlar 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <img src="./assets/4.jpg" alt="Do'stlar 1" class="mx-auto">
+                <h3 class="text-lg font-semibold mt-4">Do'stlar 1</h3>
+                <p class="text-gray-600">2 ta bellisster, 5 ta tovuqli strips va 2 ta razliv ichimlik – do'stlar bilan birga.</p>
+                <p class="text-red-500 line-through">92 000 so'm</p>
+                <p class="text-red-600 text-sm font-bold">18% chegirma</p>
+                <p class="text-lg font-semibold mt-2">75 000 so'm</p>
+            </div>
+            <!-- Do'stlar 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <img src="./assets/4.jpg" alt="Do'stlar 2" class="mx-auto">
+                <h3 class="text-lg font-semibold mt-4">Do'stlar 2</h3>
+                <p class="text-gray-600">25 sm'lik pitsa, 8 ta cinnamon rollar, 5 ta tovuqli strips va 2 Coca-Cola razliv.</p>
+                <p class="text-red-500 line-through">98 000 so'm</p>
+                <p class="text-red-600 text-sm font-bold">13% chegirma</p>
+                <p class="text-lg font-semibold mt-2">85 000 so'm</p>
+            </div>
+        </div>
+    </div>
+        </section>
+
+        <div class="container mx-auto my-8">
+            <h2 class="text-2xl font-bold mb-4">Pitsa</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Student 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="./assets/pitsa.jpg" alt="Student 1" class="mx-auto">
+                    <h3 class="text-lg font-semibold mt-4">Student 1</h3>
+                    <p class="text-gray-600">Bellisster, 3 ta tovuqli strips va razliv ichimlik – tez va mazali tushlik uchun ajoyib tanlov.</p>
+                    <p class="text-lg font-semibold mt-2">39 000 so'm</p>
+                </div>
+                <!-- Student 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="./assets/pitsa.jpg" alt="Student 2" class="mx-auto">
+                    <h3 class="text-lg font-semibold mt-4">Student 2</h3>
+                    <p class="text-gray-600">Bellisster, kartoshka fri va razliv ichimlik – foydali va to'yimli bir kishi uchun.</p>
+                    <p class="text-lg font-semibold mt-2">39 000 so'm</p>
+                </div>
+                <!-- Do'stlar 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="./assets/pitsa.jpg" alt="Do'stlar 1" class="mx-auto">
+                    <h3 class="text-lg font-semibold mt-4">Do'stlar 1</h3>
+                    <p class="text-gray-600">2 ta bellisster, 5 ta tovuqli strips va 2 ta razliv ichimlik – do'stlar bilan birga.</p>
+                    <p class="text-red-500 line-through">92 000 so'm</p>
+                    <p class="text-red-600 text-sm font-bold">18% chegirma</p>
+                    <p class="text-lg font-semibold mt-2">75 000 so'm</p>
+                </div>
+                <!-- Do'stlar 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="./assets/pitsa.jpg" alt="Do'stlar 2" class="mx-auto">
+                    <h3 class="text-lg font-semibold mt-4">Do'stlar 2</h3>
+                    <p class="text-gray-600">25 sm'lik pitsa, 8 ta cinnamon rollar, 5 ta tovuqli strips va 2 Coca-Cola razliv.</p>
+                    <p class="text-red-500 line-through">98 000 so'm</p>
+                    <p class="text-red-600 text-sm font-bold">13% chegirma</p>
+                    <p class="text-lg font-semibold mt-2">85 000 so'm</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container mx-auto my-8">
+            <h2 class="text-2xl font-bold mb-4">Ichimliklar</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Student 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="./assets/fanta.jpg" alt="Student 1" class="mx-auto">
+                    <h3 class="text-lg font-semibold mt-4">Student 1</h3>
+                    <p class="text-gray-600">Bellisster, 3 ta tovuqli strips va razliv ichimlik – tez va mazali tushlik uchun ajoyib tanlov.</p>
+                    <p class="text-lg font-semibold mt-2">39 000 so'm</p>
+                </div>
+                <!-- Student 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="./assets/fanta.jpg" alt="Student 2" class="mx-auto">
+                    <h3 class="text-lg font-semibold mt-4">Student 2</h3>
+                    <p class="text-gray-600">Bellisster, kartoshka fri va razliv ichimlik – foydali va to'yimli bir kishi uchun.</p>
+                    <p class="text-lg font-semibold mt-2">39 000 so'm</p>
+                </div>
+                <!-- Do'stlar 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="./assets/fanta.jpg" alt="Do'stlar 1" class="mx-auto">
+                    <h3 class="text-lg font-semibold mt-4">Do'stlar 1</h3>
+                    <p class="text-gray-600">2 ta bellisster, 5 ta tovuqli strips va 2 ta razliv ichimlik – do'stlar bilan birga.</p>
+                    <p class="text-red-500 line-through">92 000 so'm</p>
+                    <p class="text-red-600 text-sm font-bold">18% chegirma</p>
+                    <p class="text-lg font-semibold mt-2">75 000 so'm</p>
+                </div>
+                <!-- Do'stlar 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="./assets/fanta.jpg" alt="Do'stlar 2" class="mx-auto">
+                    <h3 class="text-lg font-semibold mt-4">Do'stlar 2</h3>
+                    <p class="text-gray-600">25 sm'lik pitsa, 8 ta cinnamon rollar, 5 ta tovuqli strips va 2 Coca-Cola razliv.</p>
+                    <p class="text-red-500 line-through">98 000 so'm</p>
+                    <p class="text-red-600 text-sm font-bold">13% chegirma</p>
+                    <p class="text-lg font-semibold mt-2">85 000 so'm</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="bg-[#262a2c] text-gray-300 py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-between">
+                <!-- Logo & Contact -->
+                <div class="mb-6 md:mb-0">
+                    <img src="./assets/logo.jpg" alt="Bellissimo Pizza" class="mb-2">
+                    <p>RAQAMGA QO'NG'IROQ QILING – 1174</p>
+                </div>
+
+                <!-- Links -->
+                <div class="flex space-x-16">
+                    <div>
+                        <h4 class="font-semibold mb-4">Ma'lumot</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-white">Biz haqimizda</a></li>
+                            <li><a href="#" class="hover:text-white">Ommaviy oferta</a></li>
+                            <li><a href="#" class="hover:text-white">Maxfiylik siyosati</a></li>
+                            <li><a href="#" class="hover:text-white">Halol sertifikati</a></li>
+                            <li><a href="#" class="hover:text-white">Restoranlar</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold mb-4">Bizning ish o'rinlarimiz</h4>
+                        <ul class="space-y-2">
+                            <!-- Placeholder for future links or text -->
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Payment Methods -->
+                <div class="mb-6 md:mb-0">
+                    <h4 class="font-semibold mb-4">To'lov usullari</h4>
+                    <div class="flex space-x-4">
+                        <img src="./assets/payme.jpg" alt="Payme" class="h-8">
+                        <img src="./assets/uzcard.jpg" alt="Uzcard" class="h-8">
+                        <img src="./assets/clic.jpg" alt="Click" class="h-8">
+                    </div>
+                </div>
+
+                <!-- Social Links -->
+                <div>
+                    <h4 class="font-semibold mb-4">Bizni kuzatib boring</h4>
+                    <div class="flex space-x-4">
+                        <a href="#"><img src="./assets/x.jpg" alt="Facebook" class="h-6"></a>
+                        <a href="#"><img src="./assets/inta.jpg" alt="Instagram" class="h-6"></a>
+                        <a href="#"><img src="./assets/teleg.jpg" alt="Telegram" class="h-6"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center text-gray-400 mt-8">
+                © 2016-2024 Bellissimo Pizza.
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
